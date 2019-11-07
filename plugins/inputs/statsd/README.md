@@ -22,8 +22,8 @@
   ## Address and port to host UDP listener on
   service_address = ":8125"
 
-  ## The following configuration options control when telegraf clears it's cache
-  ## of previous values. If set to false, then telegraf will only clear it's
+  ## The following configuration options control when telegraf clears its cache
+  ## of previous values. If set to false, then telegraf will only clear its
   ## cache when the daemon is restarted.
   ## Reset gauges every interval (default=true)
   delete_gauges = true
